@@ -1,0 +1,58 @@
+
+<div class="container">
+  <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+    <h4><span class="badge badge-dark" style="margin:10px 10px 0 0;">MyRugbyUnion</span></h4>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>   
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/home']">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/chat']">Chat<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/roster']">Roster<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/schedule']">Schedule<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/dues']">Dues<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/profile']">Profile</a>
+        </li>
+        <li *ngIf="authority == 1" class="nav-item">
+            <a class="nav-link" [routerLink]="['/admin']">Admin</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" (click)="logout()">Logout</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  </div>
+
+<div id="wrapper">
+  <div class="container">
+      <div class="jumbotron">
+          <h1 class="display-5">Event Details</h1>
+          <hr>
+          <h3>{{event.type+": " +event.title}}</h3>
+        <h6>{{event.startTime | date:'medium'}}</h6>
+        <h5>{{event.location}}</h5>
+        <p class="lead">{{event.address.street+', '+event.address.city+', '+event.address.state+', '+event.address.zip}}</p>
+      
+          <hr class="my-4">
+          <div *ngIf="authority == 1">
+            <a class="btn btn-primary btn-lg" href="/schedule/{{id}}/edit" role="button">Edit</a>  <button class="btn btn-danger btn-lg margin-left" (click)="deleteEvent()" >Delete</button>
+          </div>
+        </div>
+   
+  
+  </div>
+</div>
