@@ -8,7 +8,6 @@ import { ChatComponent } from './chat/chat.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component'; 
 import { HttpService } from './http.service';
-import { HomeComponent } from './home/home.component';
 import { StorageServiceModule } from 'angular-webstorage-service';
 import { CookieService } from 'angular2-cookie/services/cookies.service';
 import { DashComponent } from './dash/dash.component';
@@ -31,7 +30,6 @@ import { EditComponent } from './edit/edit.component';
     ChatComponent,
     LoginComponent,
     RegisterComponent,
-    HomeComponent,
     DashComponent,
     ProfileComponent,
     RosterComponent,

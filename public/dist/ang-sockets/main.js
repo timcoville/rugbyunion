@@ -314,27 +314,25 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _login_login_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./login/login.component */ "./src/app/login/login.component.ts");
 /* harmony import */ var _register_register_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./register/register.component */ "./src/app/register/register.component.ts");
 /* harmony import */ var _http_service__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./http.service */ "./src/app/http.service.ts");
-/* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
-/* harmony import */ var angular_webstorage_service__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! angular-webstorage-service */ "./node_modules/angular-webstorage-service/bundles/angular-webstorage-service.es5.js");
-/* harmony import */ var angular2_cookie_services_cookies_service__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! angular2-cookie/services/cookies.service */ "./node_modules/angular2-cookie/services/cookies.service.js");
-/* harmony import */ var angular2_cookie_services_cookies_service__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(angular2_cookie_services_cookies_service__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var _dash_dash_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./dash/dash.component */ "./src/app/dash/dash.component.ts");
-/* harmony import */ var _profile_profile_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./profile/profile.component */ "./src/app/profile/profile.component.ts");
-/* harmony import */ var _roster_roster_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./roster/roster.component */ "./src/app/roster/roster.component.ts");
-/* harmony import */ var _schedule_schedule_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./schedule/schedule.component */ "./src/app/schedule/schedule.component.ts");
-/* harmony import */ var _admin_admin_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./admin/admin.component */ "./src/app/admin/admin.component.ts");
-/* harmony import */ var ngx_stripe__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ngx-stripe */ "./node_modules/ngx-stripe/modules/ngx-stripe.es5.js");
-/* harmony import */ var _dues_dues_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./dues/dues.component */ "./src/app/dues/dues.component.ts");
-/* harmony import */ var _stripe_form_stripe_form_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./stripe-form/stripe-form.component */ "./src/app/stripe-form/stripe-form.component.ts");
-/* harmony import */ var _event_event_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./event/event.component */ "./src/app/event/event.component.ts");
-/* harmony import */ var _edit_edit_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./edit/edit.component */ "./src/app/edit/edit.component.ts");
+/* harmony import */ var angular_webstorage_service__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! angular-webstorage-service */ "./node_modules/angular-webstorage-service/bundles/angular-webstorage-service.es5.js");
+/* harmony import */ var angular2_cookie_services_cookies_service__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! angular2-cookie/services/cookies.service */ "./node_modules/angular2-cookie/services/cookies.service.js");
+/* harmony import */ var angular2_cookie_services_cookies_service__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(angular2_cookie_services_cookies_service__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _dash_dash_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./dash/dash.component */ "./src/app/dash/dash.component.ts");
+/* harmony import */ var _profile_profile_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./profile/profile.component */ "./src/app/profile/profile.component.ts");
+/* harmony import */ var _roster_roster_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./roster/roster.component */ "./src/app/roster/roster.component.ts");
+/* harmony import */ var _schedule_schedule_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./schedule/schedule.component */ "./src/app/schedule/schedule.component.ts");
+/* harmony import */ var _admin_admin_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./admin/admin.component */ "./src/app/admin/admin.component.ts");
+/* harmony import */ var ngx_stripe__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ngx-stripe */ "./node_modules/ngx-stripe/modules/ngx-stripe.es5.js");
+/* harmony import */ var _dues_dues_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./dues/dues.component */ "./src/app/dues/dues.component.ts");
+/* harmony import */ var _stripe_form_stripe_form_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./stripe-form/stripe-form.component */ "./src/app/stripe-form/stripe-form.component.ts");
+/* harmony import */ var _event_event_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./event/event.component */ "./src/app/event/event.component.ts");
+/* harmony import */ var _edit_edit_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./edit/edit.component */ "./src/app/edit/edit.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-
 
 
 
@@ -367,27 +365,26 @@ var AppModule = /** @class */ (function () {
                 _chat_chat_component__WEBPACK_IMPORTED_MODULE_6__["ChatComponent"],
                 _login_login_component__WEBPACK_IMPORTED_MODULE_7__["LoginComponent"],
                 _register_register_component__WEBPACK_IMPORTED_MODULE_8__["RegisterComponent"],
-                _home_home_component__WEBPACK_IMPORTED_MODULE_10__["HomeComponent"],
-                _dash_dash_component__WEBPACK_IMPORTED_MODULE_13__["DashComponent"],
-                _profile_profile_component__WEBPACK_IMPORTED_MODULE_14__["ProfileComponent"],
-                _roster_roster_component__WEBPACK_IMPORTED_MODULE_15__["RosterComponent"],
-                _schedule_schedule_component__WEBPACK_IMPORTED_MODULE_16__["ScheduleComponent"],
-                _admin_admin_component__WEBPACK_IMPORTED_MODULE_17__["AdminComponent"],
-                _dues_dues_component__WEBPACK_IMPORTED_MODULE_19__["DuesComponent"],
-                _stripe_form_stripe_form_component__WEBPACK_IMPORTED_MODULE_20__["StripeFormComponent"],
-                _event_event_component__WEBPACK_IMPORTED_MODULE_21__["EventComponent"],
-                _edit_edit_component__WEBPACK_IMPORTED_MODULE_22__["EditComponent"]
+                _dash_dash_component__WEBPACK_IMPORTED_MODULE_12__["DashComponent"],
+                _profile_profile_component__WEBPACK_IMPORTED_MODULE_13__["ProfileComponent"],
+                _roster_roster_component__WEBPACK_IMPORTED_MODULE_14__["RosterComponent"],
+                _schedule_schedule_component__WEBPACK_IMPORTED_MODULE_15__["ScheduleComponent"],
+                _admin_admin_component__WEBPACK_IMPORTED_MODULE_16__["AdminComponent"],
+                _dues_dues_component__WEBPACK_IMPORTED_MODULE_18__["DuesComponent"],
+                _stripe_form_stripe_form_component__WEBPACK_IMPORTED_MODULE_19__["StripeFormComponent"],
+                _event_event_component__WEBPACK_IMPORTED_MODULE_20__["EventComponent"],
+                _edit_edit_component__WEBPACK_IMPORTED_MODULE_21__["EditComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
                 _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
                 _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClientModule"],
                 _angular_forms__WEBPACK_IMPORTED_MODULE_4__["FormsModule"],
-                angular_webstorage_service__WEBPACK_IMPORTED_MODULE_11__["StorageServiceModule"],
-                ngx_stripe__WEBPACK_IMPORTED_MODULE_18__["NgxStripeModule"].forRoot('pk_test_SikI4i4ruABOuhiuMasln93X'),
+                angular_webstorage_service__WEBPACK_IMPORTED_MODULE_10__["StorageServiceModule"],
+                ngx_stripe__WEBPACK_IMPORTED_MODULE_17__["NgxStripeModule"].forRoot('pk_test_SikI4i4ruABOuhiuMasln93X'),
                 _angular_forms__WEBPACK_IMPORTED_MODULE_4__["ReactiveFormsModule"]
             ],
-            providers: [_http_service__WEBPACK_IMPORTED_MODULE_9__["HttpService"], angular2_cookie_services_cookies_service__WEBPACK_IMPORTED_MODULE_12__["CookieService"]],
+            providers: [_http_service__WEBPACK_IMPORTED_MODULE_9__["HttpService"], angular2_cookie_services_cookies_service__WEBPACK_IMPORTED_MODULE_11__["CookieService"]],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"]]
         })
     ], AppModule);
@@ -1027,85 +1024,6 @@ var EventComponent = /** @class */ (function () {
         __metadata("design:paramtypes", [_http_service__WEBPACK_IMPORTED_MODULE_1__["HttpService"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]])
     ], EventComponent);
     return EventComponent;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/home/home.component.css":
-/*!*****************************************!*\
-  !*** ./src/app/home/home.component.css ***!
-  \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "a:active {\n\n    color: #ffffff;\n}"
-
-/***/ }),
-
-/***/ "./src/app/home/home.component.html":
-/*!******************************************!*\
-  !*** ./src/app/home/home.component.html ***!
-  \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "\n<div class=\"container\">\n  <nav class=\"navbar navbar-expand-md navbar-dark bg-primary\">\n    <a class=\"navbar-brand\" href=\"#\">MyRugbyUnion</a>\n  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n      <span class=\"navbar-toggler-icon\"></span>\n    </button>   \n\n    <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n      <ul class=\"navbar-nav mr-auto\">\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" [routerLink]=\"['/home']\">Home<span class=\"sr-only\">(current)</span></a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" [routerLink]=\"['/home/chat']\">Chat<span class=\"sr-only\">(current)</span></a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" [routerLink]=\"['/home/roster']\">Roster<span class=\"sr-only\">(current)</span></a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" [routerLink]=\"['/chat']\">Schedule<span class=\"sr-only\">(current)</span></a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" [routerLink]=\"['/chat']\">Dues<span class=\"sr-only\">(current)</span></a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" [routerLink]=\"['/home/profile']\">Profile</a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" (click)=\"logout()\">Logout</a>\n        </li>\n      </ul>\n      \n    </div>\n  </nav>\n</div>\n<router-outlet></router-outlet>\n"
-
-/***/ }),
-
-/***/ "./src/app/home/home.component.ts":
-/*!****************************************!*\
-  !*** ./src/app/home/home.component.ts ***!
-  \****************************************/
-/*! exports provided: HomeComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomeComponent", function() { return HomeComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _http_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../http.service */ "./src/app/http.service.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var angular2_cookie_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! angular2-cookie/core */ "./node_modules/angular2-cookie/core.js");
-/* harmony import */ var angular2_cookie_core__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(angular2_cookie_core__WEBPACK_IMPORTED_MODULE_3__);
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-var HomeComponent = /** @class */ (function () {
-    function HomeComponent(_http, _router, _cookie) {
-        this._http = _http;
-        this._router = _router;
-        this._cookie = _cookie;
-        this._http.verifySession();
-    }
-    HomeComponent.prototype.ngOnInit = function () {
-    };
-    HomeComponent.prototype.logout = function () {
-        this._http.delSessionService();
-    };
-    HomeComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'app-home',
-            template: __webpack_require__(/*! ./home.component.html */ "./src/app/home/home.component.html"),
-            styles: [__webpack_require__(/*! ./home.component.css */ "./src/app/home/home.component.css")]
-        }),
-        __metadata("design:paramtypes", [_http_service__WEBPACK_IMPORTED_MODULE_1__["HttpService"],
-            _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"],
-            angular2_cookie_core__WEBPACK_IMPORTED_MODULE_3__["CookieService"]])
-    ], HomeComponent);
-    return HomeComponent;
 }());
 
 

@@ -31,6 +31,10 @@ var EventSchema = new mongoose.Schema ({
     attending: []
 }, {timestamps: true});
 
+var DueSchema = new mongoose.Schema ({
+    amount: {type: Number, required: true},
+    expiration: {type: Date, required: true}
+}, {timestamps: true});
 
 var UserSchema = new mongoose.Schema ({
     firstName: {
@@ -52,7 +56,7 @@ var UserSchema = new mongoose.Schema ({
     },
     weight: Number,
     dob: String,
-    payments: [],
+    payments: [DueSchema],
     completed: false,
     authority: {
         type: Number,
